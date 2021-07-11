@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MUSE</title>
+</head>
+<body>
+    <header id="textHeader">
+    </header>
+    <div class="transition active-transition"></div>
+    <main id="textMain">
+        <center>
+            <div class="contImg" style="margin-bottom: 0px;">
+                <image id="imagemAutor" src="" alt="Imagem autor"></image>
+            </div>
+        </center>
+        <div class="longText" style="padding-top: 40px;">
+            <h1 style="text-align: center;">Manuel de Barros</h1>
+            <p></p>
+            <!-- <p class="autor">-Manuel de Barros</p> -->
+            <center>
+                <a href="/escritores.html" id="mainBtn" class="btn whiteBtn" style="margin-bottom: 20px;">Ler uma obra</a>
+            </center>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="header.js"></script>
+    <script src="transition2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="getBio.js"></script>
+    <script>
+          var rellax = new Rellax('.longText', {
+            speed: -5,
+            center: false,
+            wrapper: null,
+            round: true,
+            vertical: true,
+            horizontal: false
+        });
+    </script>
+</body>
+</html>
