@@ -1,4 +1,4 @@
-const host = "http://192.168.43.233:3000"
+
 const idAutor = window.location.search.match(/id=(.*)/)[1];
 start();
 
